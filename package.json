@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --build",
     "start": "tsnd --transpile-only --ignore-watch node_modules --respawn src/app.ts",
     "typeorm": "tsnd ./node_modules/typeorm/cli.js"
   },
@@ -16,7 +16,7 @@
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.3.3",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.3.7",
+    "typeorm": "^0.2.37",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
