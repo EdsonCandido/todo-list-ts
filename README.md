@@ -1,4 +1,4 @@
-# web-native
+# todo-list
 
  Todo list using TypeORM and TypeScript
 
